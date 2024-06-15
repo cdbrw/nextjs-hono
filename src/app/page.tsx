@@ -1,3 +1,9 @@
+import { Posts } from '@/components/posts';
+
 export default function Home() {
-  return <main>hello world!</main>;
+  return (
+    <main>
+      <Posts />
+    </main>
+  );
 }
